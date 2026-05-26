@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigar Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICON -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar">
+
+        <div class="profile">
+            <h2>Nigar Qasimova</h2>
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">What I Do</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+
+    </div>
+
+    <!-- HOME -->
+
+    <section id="home" class="home">
+
+        <div class="overlay"></div>
+
+        <div class="home-text">
+            <h3>Welcome</h3>
+           <h1>
+         I am 
+         <span class="typing"></span>
+        </h1>
+        <script>
+
+let words = [
+    "Nigar Qasimova",
+    "Developer",
+    "Frontend Developer",
+    "Backend Developer"
+];
+
+let index = 0;
+
+function changeText(){
+
+    document.querySelector(".typing").innerHTML =
+    words[index];
+
+    index++;
+
+    if(index >= words.length){
+        index = 0;
+    }
+
+}
+
+changeText();
+
+setInterval(changeText, 2000);
+
+</script>
+            <p>based in Azerbaijan</p>
+
+            <a href="#about" class="btn">Hire Me</a>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <h1 class="title">About Me</h1>
+
+        <div class="about-box">
+
+            <div class="left">
+                <h2>I'm <span>Qasimova Nigar</span>, a Web Developer</h2>
+
+                <p>
+                    Mən frontend və backend sahəsində çalışan web developerəm.
+                    HTML, CSS, JavaScript və digər texnologiyalar ilə saytlar hazırlayıram.
+                </p>
+
+                <p>
+                    Müasir dizaynlı və responsive web saytlar yaratmağı sevirəm.
+                </p>
+            </div>
+
+            <div class="right">
+
+                <p><b>Name:</b> Qasimova Nigar</p>
+                <p><b>Email:</b> nika.qasimova.0108@gmail.com</p>
+                <p><b>Age:</b> 24</p>
+                <p><b>From:</b> Azerbaijan, Baku</p>
+
+                <button>Download CV</button>
+
+            </div>
+
+        </div>
+
+        <div class="numbers">
+
+            <div>
+                <h2>4+</h2>
+                <p>Years Experience</p>
+            </div>
+
+            <div>
+                <h2>30+</h2>
+                <p>Projects</p>
+            </div>
+
+            <div>
+                <h2>15+</h2>
+                <p>Happy Clients</p>
+            </div>
+
+            <div>
+                <h2>5+</h2>
+                <p>Certificates</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICES -->
+
+    <section id="services" class="services">
+
+        <h1 class="title">What I Do</h1>
+
+        <div class="service-box">
+
+            <div class="service-card">
+                <i class="fa-solid fa-shop"></i>
+                <h2>Saticiliq</h2>
+                <p>Müştərilərlə düzgün ünsiyyət və satış bacarığı.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-computer"></i>
+                <h2>Kompüter Kursu</h2>
+                <p>Ofis proqramları və kompüter bilikləri.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend</h2>
+                <p>HTML, CSS və JavaScript ilə sayt hazırlanması.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-database"></i>
+                <h2>Backend</h2>
+                <p>Server və database ilə işləmək bacarığı.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-cash-register"></i>
+                <h2>Kassir</h2>
+                <p>Kassa əməliyyatları və müştəri xidməti.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RESUME -->
+
+    <section id="resume" class="resume">
+
+        <h1 class="title">Resume</h1>
+
+        <div class="resume-box">
+
+            <div class="resume-card">
+                <span>2018 - 2022</span>
+                <h2>Satici</h2>
+                <p>Satış sahəsində təcrübə.</p>
+            </div>
+
+            <div class="resume-card">
+                <span>2022 - 2026</span>
+                <h2>Kassir</h2>
+                <p>Kassa sistemi və müştəri xidməti.</p>
+            </div>
+
+            <div class="resume-card">
+                <span>2025</span>
+                <h2>Kompüter Kursu</h2>
+                <p>Kompüter və ofis proqramları.</p>
+            </div>
+
+            <div class="resume-card">
+                <span>2025 - 2026</span>
+                <h2>Frontend</h2>
+                <p>Frontend development öyrənilməsi.</p>
+            </div>
+
+            <div class="resume-card">
+                <span>2025 - 2026</span>
+                <h2>Backend</h2>
+                <p>Backend development öyrənilməsi.</p>
+            </div>
+
+        </div>
+        <!-- SKILLS -->
+
+<div class="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skill">
+
+        <p>HTML/CSS <span>95%</span></p>
+
+        <div class="bar">
+            <div class="fill html"></div>
+        </div>
+
+    </div>
+
+    <div class="skill">
+
+        <p>JavaScript <span>80%</span></p>
+
+        <div class="bar">
+            <div class="fill js"></div>
+        </div>
+
+    </div>
+
+    <div class="skill">
+
+        <p>Frontend <span>85%</span></p>
+
+        <div class="bar">
+            <div class="fill front"></div>
+        </div>
+
+    </div>
+
+    <div class="skill">
+
+        <p>Backend <span>70%</span></p>
+
+        <div class="bar">
+            <div class="fill back"></div>
+        </div>
+
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- PORTFOLIO -->
+
+
+<section id="portfolio" class="portfolio">
+
+    <h1 class="title">My Work</h1>
+
+    <div class="portfolio-menu">
+
+        <button>All</button>
+        <button>Work</button>
+        <button>Frontend</button>
+        <button>Backend</button>
+
+    </div>
+
+    <div class="portfolio-box">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=1000" alt="">
+            <h3>Work</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000" alt="">
+            <h3>Work</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000" alt="">
+            <h3>Frontend</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000" alt="">
+            <h3>Frontend</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000" alt
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <h1 class="title">Contact</h1>
+
+        <div class="contact-box">
+
+            <div class="contact-left">
+
+                <h2>Address</h2>
+
+                <p>Bakı şəhəri</p>
+                <p>Binəqədi rayonu</p>
+
+                <p><i class="fa-solid fa-phone"></i> 0997810108</p>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    nika.qasimova.0108@gmail.com
+                </p>
+
+                <h3>Follow Me</h3>
+
+                <div class="contact-social">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+
+                </div>
+
+            </div>
+
+            <div class="contact-right">
+
+                <input type="text" placeholder="Name">
+
+                <input type="email" placeholder="Email">
+
+                <textarea placeholder="Message"></textarea>
+
+                <button>Send Message</button>
+
+            </div>
+
+        </div>
+
+    </section>
+<script src="index.js"></script>
+</body>
+</html>
